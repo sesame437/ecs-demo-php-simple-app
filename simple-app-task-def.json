@@ -4,7 +4,7 @@
     "containerDefinitions": [
         {
             "environment": [],
-            "name": "ecs-sample",
+            "name": "ecssample",
             "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
             "cpu": 10,
             "memory": 500,
