@@ -1,5 +1,5 @@
 {
-    "family": "console-sample-app",
+    "family": "ecs-sample",
     "volumes": [
         {
             "name": "my-vol",
@@ -9,8 +9,8 @@
     "containerDefinitions": [
         {
             "environment": [],
-            "name": "simple-app",
-            "image": "amazon/amazon-ecs-sample",
+            "name": "ecs-sample",
+            "image": ""%REPOSITORY_URI%:v_%BUILD_NUMBER%"",
             "cpu": 10,
             "memory": 500,
             "portMappings": [
