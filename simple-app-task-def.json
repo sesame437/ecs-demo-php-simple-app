@@ -14,12 +14,6 @@
                     "hostPort": 80
                 }
             ],
-            "mountPoints": [
-                {
-                    "sourceVolume": "my-vol",
-                    "containerPath": "/var/www/my-vol"
-                }
-            ],
             "entryPoint": [
                 "/usr/sbin/apache2",
                 "-D",
