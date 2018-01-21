@@ -1,11 +1,6 @@
 {
     "family": "ecssample",
-    "volumes": [
-        {
-            "name": "my-vol",
-            "host": {}
-        }
-    ],
+    "networkMode": "bridge",
     "containerDefinitions": [
         {
             "environment": [],
