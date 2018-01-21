@@ -1,10 +1,10 @@
 {
-    "family": "ecssample",
+    "family": "ecs-sample",
     "networkMode": "bridge",
     "containerDefinitions": [
         {
             "environment": [],
-            "name": "ecssample",
+            "name": "ecs-sample",
             "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
             "cpu": 10,
             "memory": 500,
