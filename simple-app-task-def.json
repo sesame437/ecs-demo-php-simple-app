@@ -1,5 +1,5 @@
 {
-    "family": "ecs-sample",
+    "family": "ecssample",
     "volumes": [
         {
             "name": "my-vol",
