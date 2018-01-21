@@ -1,0 +1,4 @@
+ecssample:
+  build: .
+  ports:
+    - "80:80"

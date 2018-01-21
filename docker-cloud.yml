@@ -1,0 +1,4 @@
+ecssample:
+  image: amazon/amazon-ecs-sample
+  ports:
+    - "80:80"
