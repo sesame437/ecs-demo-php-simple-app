@@ -10,7 +10,7 @@
         {
             "environment": [],
             "name": "ecs-sample",
-            "image": ""%REPOSITORY_URI%:v_%BUILD_NUMBER%"",
+            "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
             "cpu": 10,
             "memory": 500,
             "portMappings": [
