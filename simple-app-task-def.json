@@ -1,6 +1,11 @@
 {
     "family": "ecs-sample",
     "networkMode": "bridge",
+    "volumes": [
+        {
+            "name": "my-vol",
+            "host": {}
+        }
     "containerDefinitions": [
         {
             "environment": [],
@@ -12,6 +17,12 @@
                 {
                     "containerPort": 80,
                     "hostPort": 80
+                }
+            ],
+            "mountPoints": [
+                {
+                    "sourceVolume": "my-vol",
+                    "containerPath": "/var/www/my-vol"
                 }
             ],
             "entryPoint": [
@@ -28,7 +39,7 @@
             "memory": 500,
             "volumesFrom": [
             {
-              "sourceContainer": "simple-app"
+              "sourceContainer": "ecs-sample"
             }
             ],
             "entryPoint": [
