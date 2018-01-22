@@ -15,8 +15,9 @@
     <body>
         <div class="container">
             <div class="hero-unit">
-                <h1>Simple PHP App - Deploy Automatic</h1>
-                <h2>Congratulations - Add Approval setps</h2>
+                <h1>Simple PHP App</h1>
+                <h2>Congratulations</h2>
+                <h3>Test dynamic ports</h3>
                 <p>Your PHP application is now running on a container in Amazon ECS.</p>
                 <p>The container is running PHP version <?php echo phpversion(); ?>.</p>
                 <?php
