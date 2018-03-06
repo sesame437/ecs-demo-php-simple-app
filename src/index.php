@@ -16,7 +16,7 @@
         <div class="container">
             <div class="hero-unit">
                 <h1>QianKai's master builder</h1>
-                <h2>请各位高抬贵手</h2>
+                <h2>Demo</h2>
                 <p>Your PHP application is now running on a container in Amazon ECS.</p>
                 <p>The container is running PHP version -demo <?php echo phpversion(); ?>.</p>
                 <?php
