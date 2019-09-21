@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>QianKai's master builder</title>
+        <title>ecs-jenkins-demo</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
         <style>body {margin-top: 40px; background-color: #FF8D33;}</style>
@@ -15,8 +15,7 @@
     <body>
         <div class="container">
             <div class="hero-unit">
-                <h1>Demo</h1>
-                <h2>Demo</h2>
+                <h1>ecs-jenkins-demo</h1>
                 <p>Your PHP application is now running on a container in Amazon ECS.</p>
                 <p>The container is running PHP version -demo <?php echo phpversion(); ?>.</p>
                 <?php
